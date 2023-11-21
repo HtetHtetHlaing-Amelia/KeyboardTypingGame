@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+/*For random word and result*/
+.input,.result,.type{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+}
+.type{
+   color:orangered;
+    
+}
+/*Key on the keyboard*/
+.keyboard {
+    margin-left: 3%;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(239, 173, 232);
+    border-radius: 15px;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+button {
+    background-color:lawngreen;
+    border: none;
+    display: inline-block;
+    padding: .5rem 1rem;
+    margin: .3rem;
+    font-size: 23px;
+    width: 50px;
+    height: 50px;
+    border-radius: .5rem;
+    box-shadow: 1.5px 1.5px 5px gray;
+}
+.active{
+background-color: rgb(131, 42, 214);
+}
+
+.space{
+    background-color: orangered;
+}
+
+.clear {
+    width: 130px;
+}
+
+.caps {
+    width: 170px;
+}
+
+.space {
+    width: 350px;
+}
+
+.tab,
+.shift {
+    width: 130px;
+}
+
+.ctrl,
+.alt {
+    width: 60px;
+}
+span{
+    font-size: 28px;
+    margin: 50px;
+    text-align: center;
+    padding: 20px;
+}
