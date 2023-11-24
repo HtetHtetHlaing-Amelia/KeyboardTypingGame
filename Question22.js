@@ -61,6 +61,7 @@ function check(a) {
         missedWord.innerText += "Missed Word : " + mistake;
     }
     if (count == 5) {
+        count=0;
         if (isCorrect) {
             correctCount++;
             correctWord.innerText = "";
